@@ -1,38 +1,62 @@
-.App {
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.card{
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px;
+  cursor: pointer;
+  padding: 0px 30px;
+}
+#h1{
+  margin: 30px 0px;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer{
+  background-color: black;
+  text-align: center;
+  color: #efefef;
+  margin: 10px 0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.checkout-container{
+  margin-top: 50px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.form{
+  display: block;
+  margin: 0px auto;
+  width: 50%;
+}
+.form input{
+  padding:10px ;
+  width: 80%;
+  border-radius: 5px ;
+  margin-bottom: 5px;
+}
+.link-deco{
+  text-decoration: none;
+}
+.link-btn{
+  text-decoration: none;
+  color: #efefef;
+}
+.item-container{
+  margin: 20px 10px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
